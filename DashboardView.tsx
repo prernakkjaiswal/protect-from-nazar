@@ -1,7 +1,7 @@
 import { Shield, EyeOff, Activity, AlertTriangle, Fingerprint, Lock } from 'lucide-react';
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/Card';
-import { Badge } from '@/Badge';
-import { Button } from '@/Button';
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/Card.tsx';
+import { Badge } from '@/Badge.tsx';
+import { Button } from '@/Button.tsx';
 
 export function DashboardView() {
   return (
