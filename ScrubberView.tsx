@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { UploadCloud, CheckCircle, FileImage, Settings, Lock } from 'lucide-react';
-import { Card, CardContent, CardDescription, CardHeader, CardTitle, CardFooter } from '@/src/components/ui/Card';
-import { Button } from '@/src/components/ui/Button';
+import { Card, CardContent, CardDescription, CardHeader, CardTitle, CardFooter } from '@/Card';
+import { Button } from '@/Button';
 
 export function ScrubberView() {
   const [scrubbing, setScrubbing] = useState(false);
