@@ -1,10 +1,10 @@
 import { useState } from 'react';
 import { Shield, Database, Eraser, Bot } from 'lucide-react';
-import { DashboardView } from '@/src/components/views/DashboardView';
-import { VaultView } from '@/src/components/views/VaultView';
-import { ScrubberView } from '@/src/components/views/ScrubberView';
-import { SentinelChatView } from '@/src/components/views/SentinelChatView';
-import { cn } from '@/src/lib/utils';
+import { DashboardView } from '@/DashboardView';
+import { VaultView } from '@//VaultView';
+import { ScrubberView } from '@/ScrubberView';
+import { SentinelChatView } from '@/SentinelChatView';
+import { cn } from '@/utils';
 
 export default function App() {
   const [activeTab, setActiveTab] = useState<'dashboard' | 'vault' | 'scrubber' | 'chat'>('dashboard');
