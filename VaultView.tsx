@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import { Database, Plus, Key, Network } from 'lucide-react';
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/src/components/ui/Card';
-import { Button } from '@/src/components/ui/Button';
-import { Input } from '@/src/components/ui/Input';
-import { Badge } from '@/src/components/ui/Badge';
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/Card';
+import { Button } from '@/Button';
+import { Input } from '@/Input';
+import { Badge } from '@/Badge';
 
 interface Asset {
   id: string;
