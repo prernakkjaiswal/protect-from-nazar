@@ -1,10 +1,10 @@
 import { useState, useRef, useEffect } from 'react';
 import { Send, Bot, User, Loader2 } from 'lucide-react';
 import Markdown from 'react-markdown';
-import { Card, CardContent, CardHeader, CardTitle } from '@/Card';
-import { Input } from '@/Input';
-import { Button } from '@/Button';
-import { createSentinelChat } from '@/gemini';
+import { Card, CardContent, CardHeader, CardTitle } from '@/Card.tsx';
+import { Input } from '@/Input.tsx';
+import { Button } from '@/Button.tsx';
+import { createSentinelChat } from '@/gemini.tsx';
 
 export function SentinelChatView() {
   const [messages, setMessages] = useState<{ role: 'user' | 'model'; text: string }[]>([
