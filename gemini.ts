@@ -1,6 +1,6 @@
 import { GoogleGenAI } from '@google/genai';
 
-const ai = new GoogleGenAI({ apiKey: process.env.GEMINIAPIKEY });
+const ai = <input type="password" placeholder="Enter Gemini API Key" />;
 
 export const SYSTEM_INSTRUCTION = `You are Digital Sentinel, an advanced AI security advisor for the 'Protect from Nazar' digital asset protection platform. 
 Your role is to calmly, professionally, and authoritatively advise the user on keeping their digital assets safe. 
