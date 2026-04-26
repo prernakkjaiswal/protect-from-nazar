@@ -1,4 +1,4 @@
-I've built the ****PROTECT FROM NAZAR** ** prototype with a focus on your organizational shift toward robust digital asset protection. Since you opted out of Firebase for this initial iteration, the app uses localized simulation for state management while demonstrating the exact flows and architecture you requested.
+I've built the ****PROTECT FROM NAZAR** ** prototype with a focus on  organizational shift toward robust digital asset protection. The app uses localized simulation for state management while demonstrating the exact flows and architecture you requested.
 
 
 Here’s a breakdown of the technical implementation:
